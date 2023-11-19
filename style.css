@@ -9,7 +9,7 @@ body{
 h1{
     font-size: 120px;
     text-shadow: 10px;
-    color: rgb(30, 54, 58);
+    color: rgb(15, 43, 51);
     background-color: rgb(153, 167, 167);
     padding: 50px 0;
     margin: 0;
@@ -17,19 +17,20 @@ h1{
 
 p{
     font-size: 40px;
-    color: rgb(76, 91, 94);
+    color: rgb(58, 71, 73);
     margin: 20px 5px;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .fofo{
-    margin: 20px;
+    margin: 20px 70px;
     padding: 20px;
     color: rgb(76, 91, 94);
     border: 3px solid;
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
+    border-radius: 10px;
 }
 
 button{
@@ -37,10 +38,11 @@ button{
     padding-inline: 20px;
     font-size: 30px;
     border: 3px solid;
-    margin: 0 30px;
+    margin: 0 25px;
     font-family: "Poppins", Helvetica, sans-serif;
-    font-weight: 50px;
+    font-weight: 600;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 span{
