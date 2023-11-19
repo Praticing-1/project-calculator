@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lucas/Documentos/Estudo/Dotnet/StoreCalculatorResult/StoreCalculatorResult.csproj": {}
+  },
+  "projects": {
+    "/home/lucas/Documentos/Estudo/Dotnet/StoreCalculatorResult/StoreCalculatorResult.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lucas/Documentos/Estudo/Dotnet/StoreCalculatorResult/StoreCalculatorResult.csproj",
+        "projectName": "StoreCalculatorResult",
+        "projectPath": "/home/lucas/Documentos/Estudo/Dotnet/StoreCalculatorResult/StoreCalculatorResult.csproj",
+        "packagesPath": "/home/lucas/.nuget/packages/",
+        "outputPath": "/home/lucas/Documentos/Estudo/Dotnet/StoreCalculatorResult/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lucas/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/home/lucas/Documentos/HelloGym/HelloGymERP/src/backend/VimCorPro.Microservices/nuget-packages/output": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.25, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.125/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
